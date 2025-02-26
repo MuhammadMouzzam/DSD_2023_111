@@ -35,7 +35,7 @@ task monitor();
 
         if (exp_red !== red & exp_green !== green & exp_blue !== blue) begin
             $display("ERROR : a = %b, b = %b, exp_red = %b, Got = %b, exp_green = %b, Got = %b, exp_blue = %b, Got = %b", C_A, C_B, exp_red, red, exp_green, green, exp_blue, blue);
-        end 
+        end
         else begin
             $display("PASS : a = %b, b = %b, exp_red = %b, exp_green = %b,  exp_blue = %b", C_A, C_B, exp_red, exp_green, exp_blue);
         end
